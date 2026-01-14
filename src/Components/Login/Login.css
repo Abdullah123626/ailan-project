@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilory";
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;           /* full viewport height */
+  margin: 0;
+  background-color: #00b7ff;
+  color: #000;
+}
+
+
+.Main {
+  width: 70vh;
+  min-height: 60vh; /* bigger than screen */
+  background-color: #fff;
+  border-radius: 20px;
+}
+.first-text {
+  color: #000;
+  text-align: center; /* horizontal center */
+  margin: 0 auto;     /* optional for block element */
+  padding-top: 10%;
+  }
+
+  .first-para{
+    font-size: 14px;
+    margin-left: 23%;
+    padding-top: 3%;
+  }
+
+  .first-para2{
+    font-size: 14px;
+    margin-left: 32.5%;
+    padding-top: 0.5%;
+  }
+  .first-inp{
+    width: 80%;
+    height: 5vh;
+    background-color: #bbbbbb;
+    margin-top: 7%;
+    margin-left: 8%;
+    padding-left: 3%;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    
+  }
+  
+  .second-inp{
+    width: 80%;
+    height: 5vh;
+    background-color: #bbbbbb;
+    margin-top: 5%;
+    margin-left: 8%;
+    padding-left: 3%;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+
+  }
+  .button{
+    width: 50%;
+    height: 7vh;
+    margin-left: 25%;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #fff;
+    margin-top: 7%;
+  }
