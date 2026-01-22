@@ -1,4 +1,15 @@
 
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.main-div{
+    margin-top: 2%;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -6,6 +17,7 @@
   gap: 20px;
   padding: 12px 30px;
     flex-direction: row;
+        margin-top: 5%;
 
 
 }
@@ -196,10 +208,31 @@ color: #000;
 
 
 
+/*  */
 
 
-.category-btn:hover {
-  background-color: #add8e6; /* hover light blue */
-  color: #000;
-  border-color: #1e6bff;
+
+
+
+
+
+
+
+
+
+
+
+
+/* main view */
+.main {
+  width: 85%;
+  height: 90vh;               /* screen ke 90% height */
+  border: 0.3px solid rgb(185, 185, 185);   /* proper border */
+  border-radius: 10px;
+  margin: 10px auto;         /* horizontally center */
+  /* display: flex; */
+  /* justify-content: center;   content center */
+  /* align-items: center;       content center */
+  margin-top: 2%;
+  margin-left: 12%;
 }

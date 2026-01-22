@@ -1,4 +1,5 @@
 
+
 .header {
   display: flex;
   align-items: center;
@@ -130,76 +131,3 @@
   background-color: #1557d6;
 }
 
-
-
-
-/* catagories */
-.categories-row {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* space between All Categories & other buttons */
-  flex-wrap: wrap; /* responsive for small screens */
-  margin-top: 20px;
-  margin-left: 5%
-  
-  /* margin-left: 200px */
-  ;
-}
-
-/* All Categories button */
-.all-cat-btn {
-  background-color: #0bb8e4; /* light blue */
-  color: #000;
-  padding: 10px 18px;
-  border: none;
-  border-radius: 25px;
-  font-size: 14px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  /* align-self: center; */
-  margin-left: 200px;
-  /* padding-top: 20px; */
-}
-
-/* Arrow icon */
-.all-cat-btn i {
-  font-size: 12px;
-}
-
-/* Other categories buttons */
-.other-categories {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* space between each category */
-  flex-wrap: wrap;
-}
-
-.category-btn {
-  background-color: #f0f8ff; /* light hover color */
-  border: 1px solid #ccc;
-  border-radius: 25px;
-  padding: 8px 12px;
-  font-size: 13px;
-  cursor: pointer;
-  transition: all 0.2s;
-color: #000;
-}
-
-.category-btn:hover {
-  background-color: #add8e6; /* hover light blue */
-  color: #000;
-  border-color: #1e6bff;
-}
-
-
-
-
-
-
-.category-btn:hover {
-  background-color: #add8e6; /* hover light blue */
-  color: #000;
-  border-color: #1e6bff;
-}

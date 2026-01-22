@@ -1,4 +1,15 @@
 
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.main-div{
+    margin-top: 2%;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -6,6 +17,7 @@
   gap: 20px;
   padding: 12px 30px;
     flex-direction: row;
+        margin-top: 5%;
 
 
 }
@@ -196,10 +208,125 @@ color: #000;
 
 
 
+/*  */
 
 
-.category-btn:hover {
-  background-color: #add8e6; /* hover light blue */
-  color: #000;
-  border-color: #1e6bff;
+
+
+
+
+
+
+
+
+
+
+
+
+/* main view */
+.main {
+  width: 85%;
+  height: 90vh;               /* screen ke 90% height */
+  border: 0.3px solid rgb(185, 185, 185);   /* proper border */
+  border-radius: 10px;
+  margin: 10px auto;         /* horizontally center */
+  /* display: flex; */
+  /* justify-content: center;   content center */
+  /* align-items: center;       content center */
+  margin-top: 2%;
+  margin-left: 12%;
 }
+
+
+/* main div data  */
+
+.h3text{
+    margin-left: 30px;
+    margin-top: 3.5%;
+    font-weight: 600;
+}
+.inputsdiv{
+    flex-direction: row;
+    display: flex;
+    /* align-self: center; */
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-left: 6%;
+    margin-top: 3%;
+
+    
+}
+.firstinp{
+    width: 80%;
+    height: 6.5vh;
+    border-radius: 5px;
+  border: 1px solid #ccc;
+    margin-right: 300px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+            margin-top: 10px;
+            color: #000;
+
+
+}
+.secondinp{
+    width: 80%;
+    height: 6.5vh;
+    border-radius: 5px;
+  border: 1px solid #ccc;
+        margin-right: 340px;
+        padding-left: 10px;
+                margin-top: 10px;
+                color: #000;
+                
+
+
+
+}
+.third-inp{
+    width: 37.5%;
+    height: 6.5vh;
+    border-radius: 5px;
+  border: 1px solid #ccc;
+        margin-right: 340px;
+        padding-left: 10px;
+                margin-top: 10px;
+                color: #000;
+                margin-left: 5%;
+                
+
+
+
+}
+
+
+
+
+.h5{
+  margin-top: 20px;
+  color: #414141;
+}
+
+
+
+.desc-wrap {
+  width: 100%;
+  margin-left: 5%;
+}
+
+
+
+
+#description {
+    width: 37.5%;   /* fit container */
+    height: 105px;
+    border: 0.5px solid #D0D0D0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 1%;
+    color: #000;
+}
+
+
+/* fotter */

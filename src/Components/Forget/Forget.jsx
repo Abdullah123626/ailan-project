@@ -3,7 +3,7 @@ import asaan from "../../assets/images/asaan.png";
 import transparent from "../../assets/images/transperantphone.png";
 // import "./Verifications.css";
 
-const Login = () => {
+const Forget = () => {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="w-full max-w-sm flex flex-col items-center">
@@ -12,10 +12,10 @@ const Login = () => {
 
         {/* <img src={transparent} alt="" className="w-20 h-20 mt-8" /> */}
 
-        <h3 className="mt-6 text-[20px] font-[600]">Login Account </h3>
+        <h3 className="mt-6 text-[20px] font-[600]">Forget Account </h3>
 
         <p className="text-[12px] text-[#858997] font-[400] ">
-Enter your email and password        </p>
+Enter your email and password     </p>
         
 
         {/* Input Section */}
@@ -36,6 +36,7 @@ Enter your email and password        </p>
 
 
 
+
         {/* password */}
 
         <div className="w-[80%] mt-6">
@@ -53,7 +54,10 @@ Enter your email and password        </p>
           </div>
         </div>
 
-<button className="Button" >Login</button>
+
+        
+
+<button className="Button" >Forget</button>
       </div>
 
 
@@ -72,4 +76,4 @@ Enter your email and password        </p>
   )
 }
 
-export default Login;
+export default Forget;

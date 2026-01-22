@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.main-div{
+    margin-top: 2%;
+}
 
 .header {
   display: flex;
@@ -6,7 +15,6 @@
   gap: 20px;
   padding: 12px 30px;
     flex-direction: row;
-
 
 }
 
@@ -193,13 +201,99 @@ color: #000;
   border-color: #1e6bff;
 }
 
+/* ads row */
 
 
-
-
-
-.category-btn:hover {
-  background-color: #add8e6; /* hover light blue */
-  color: #000;
-  border-color: #1e6bff;
+.related-ads {
+display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-left: 3%;
 }
+
+.ad-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 13px;
+  /* position: relative; */
+  width: 208px;
+  height: 315px;
+  color: #000;
+  height: 41vh;
+
+}
+
+.ad-card img {
+  width: 100%;
+  height: 120px;
+  /* object-fit: cover; */
+  border-radius: 6px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  font-size: 11px;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.ad-card h4 {
+  font-size: 14px;
+  margin: 8px 0 4px;
+}
+
+.location {
+  color: #777;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 12px;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.time {
+  font-size: 11px;
+  color: #888;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 6px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.call {
+  background: #00a49f;
+  color: white;
+}
+
+.chat {
+  background: #fff;
+  border: 1px solid #00a49f;
+  color: #00a49f;
+}
+

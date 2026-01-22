@@ -1,0 +1,21 @@
+/* fotteerrbanner  black blue*/
+.footer-banners {
+  display: flex;
+  flex-direction: column; /* banners stacked vertically */
+  align-items: center;    /* center horizontally */
+  /* gap: 20px;              space between banners */
+  padding: 30px 20px;
+  /* background-color: #f8f8f8; optional light background */
+}
+
+.footer-banner img {
+  max-width: 105%;        /* responsive width */
+  height: auto;          /* maintain aspect ratio */
+  border-radius: 8px;    /* optional rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* subtle shadow */
+  transition: transform 0.2s;
+}
+
+.footer-banner img:hover {
+  transform: translateY(-3px); /* subtle hover effect */
+}

@@ -1,0 +1,18 @@
+.Button {
+  background-color: #007ce9; /* light hover color */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 8px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+color: #ffffff;
+width: 82%;
+margin-top: 3%;
+}
+
+.Button:hover {
+  background-color: #add8e6; /* hover light blue */
+  color: #000;
+  border-color: #1e6bff;
+}
